@@ -430,6 +430,7 @@ template {
 }
 
 .search__input {
+  outline: none;
   width: 350px;
   height: 100%;
   padding-left: 23px;
@@ -442,6 +443,7 @@ template {
 }
 
 .search__button {
+  outline: none;
   top: 0;
   right: 0;
   position: absolute;
@@ -518,6 +520,7 @@ template {
     display: none;
   }
   .menu-button {
+    outline: none;
     padding: 0;
     display: -webkit-box;
     display: -ms-flexbox;
