@@ -18,3 +18,20 @@ $(document).keydown(function(e){
     $('.slider-button--next')[0].click();
   };
 });
+var myMap;
+
+ymaps.ready(init);
+
+function init () {
+    myMap = new ymaps.Map('map', {
+        center: [52.846448, -1.297401],
+        zoom: 16
+    }, {
+        searchControlProvider: 'yandex#search'
+    });
+
+    document.getElementById('destroyButton').onclick = function () {
+        myMap.destroy();
+    };
+
+}

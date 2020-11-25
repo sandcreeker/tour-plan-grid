@@ -4,8 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Best Tour Plan - Hotel Booking</title>
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript">
+    </script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/swiper-bundle.min.css">
 </head>
@@ -120,13 +122,13 @@
             <div class="swiper-wrapper">
         <!-- Slides -->
               <div class="swiper-slide">
-                <img src="img/slide-1.png" alt="slide">
+                <img class="swiper-slide__image" src="img/slide-1.png" alt="slide">
               </div>
               <div class="swiper-slide">
-                <img src="img/slide-2.jpg" alt="slide">
+                <img class="swiper-slide__image" src="img/slide-2.jpg" alt="slide">
               </div>
               <div class="swiper-slide">
-                <img src="img/slide-3.jpg" alt="slide">
+                <img class="swiper-slide__image" src="img/slide-3.jpg" alt="slide">
               </div>
             </div>
         <!-- If we need navigation buttons -->
@@ -171,7 +173,7 @@
             </button>
           </div>
           <!-- /.booking -->
-          <div class="map"></div>
+          <div id="map" class="map"></div>
           <!-- /.map -->
         </div>
         <!-- /.hotel-guide -->
