@@ -616,6 +616,10 @@ template {
   background-image: url(../img/arrow-prev.svg);
 }
 
+.hotel .swiper-container {
+  margin-left: 0;
+}
+
 .hotel .offer {
   padding: 4px 9px;
   background-color: #EC1F46;
