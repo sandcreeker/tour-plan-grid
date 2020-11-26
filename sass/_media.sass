@@ -9,6 +9,9 @@
       &__image
         height: 100%
         object-fit: cover
+  .card
+    width: 230px
+    height: 230px
 @media ( max-width:992px)
   .container, .newsletter-container
     max-width: 700px
@@ -46,6 +49,16 @@
     &-slider
       &__item
         max-width: 580px
+  .activities
+    &-container
+      flex-wrap: wrap
+    &__title
+      margin-bottom: 57px
+    &__card
+      margin-bottom: 20px
+  .card
+    width: 340px
+    height: 255px
 @media ( max-width:768px)
   .container
     max-width: 576px
@@ -133,6 +146,13 @@
           right: 50%
           margin-right: -65px
           transform: translate(50%, 0)
+  .activities
+    padding: 40px 0 60px 0
+    &__title
+      margin-bottom: 36px
+  .card
+    width: 48%
+    height: 255px
 @media (min-width: 576px ) and (max-width: 630px )
   .newsletter
     padding-left: 20px
@@ -145,3 +165,5 @@
       margin-bottom: 20px
   .newsletter
     padding-left: 20px
+  .card
+    width: 100%
