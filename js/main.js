@@ -30,6 +30,14 @@ function init () {
         searchControlProvider: 'yandex#search'
     });
 
+    myMap.geoObjects
+
+        .add(new ymaps.Placemark([52.846448, -1.297401], {
+            iconCaption: 'Hilton East Midlands Airport'
+        }, {
+            preset: 'islands#redDotIconWithCaption'
+        }));
+
     document.getElementById('destroyButton').onclick = function () {
         myMap.destroy();
     };
