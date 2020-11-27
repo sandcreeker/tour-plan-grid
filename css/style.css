@@ -1376,4 +1376,10 @@ template {
     width: 100%;
   }
 }
+
+@media (max-width: 390px) {
+  .subscribe {
+    width: 280px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
