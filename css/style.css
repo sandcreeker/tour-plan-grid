@@ -967,7 +967,7 @@ template {
 
 .packages-maincard__mainimage {
   position: relative;
-  max-height: 500px;
+  height: 500px;
   max-width: 365px;
 }
 
